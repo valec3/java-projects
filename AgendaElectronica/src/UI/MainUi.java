@@ -44,7 +44,6 @@ public class MainUi extends JFrame {
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setSize(800,600);
         setLocationRelativeTo(null);
-        setVisible(true);
         btnBack.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
